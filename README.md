@@ -150,7 +150,14 @@ Se usó:
 - endpoint primario para escritura
 - read replica para consultas analíticas
 
-Evidencia CloudFormation
+<p><strong>Evidencia CloudFormation</strong></p>
+
+<p>Stack de RDS creado correctamente en CloudFormation con estado <code>CREATE_COMPLETE</code>.</p>
+<img src="docs/Screenshots/Stack%20creado.png" width="900">
+
+<br><br>
+<p>Outputs del stack mostrando el endpoint primario (<code>RdsEndpoint</code>) y el endpoint de la read replica (<code>RdsReplicaEndpoint</code>).</p>
+<img src="docs/Screenshots/Outputs%20Stacks.png" width="900">
 
 ## 4. ERD
 
