@@ -176,7 +176,10 @@ Archivos:
 - docs/erd-flights.drawio
 - docs/erd-flights.png
 
-Evidencia ERD
+<p><strong>Evidencia ERD</strong></p>
+
+<p>Diagrama entidad-relación del esquema de vuelos con las entidades <code>airlines</code>, <code>airports</code> y <code>flights</code>, incluyendo llaves primarias, llaves foráneas y relaciones.</p>
+<img src="docs/Screenshots/Diagrama.png" width="700">
 
 ## 5. PostgreSQL con SQLAlchemy
 
@@ -195,7 +198,18 @@ python etl/postgres_load.py \
   --data-dir data/ \
   --db-name flights
 
-Evidencia PostgreSQL / DBeaver
+<p><strong>Evidencia PostgreSQL / DBeaver</strong></p>
+
+<p>Conexión exitosa desde DBeaver a la read replica de PostgreSQL.</p>
+<img src="docs/Screenshots/Conexión%20exitosa%20DBeaver.png" width="900">
+
+<br><br>
+<p>Árbol de esquemas en DBeaver mostrando las tablas <code>airlines</code>, <code>airports</code> y <code>flights</code>.</p>
+<img src="docs/Screenshots/Arbol%20de%20esquemas%20DBeaver.png" width="900">
+
+<br><br>
+<p>Validación de la carga mediante conteos por tabla en DBeaver.</p>
+<img src="docs/Screenshots/Tabla%20Count%20DBeaver.png" width="900">
 
 ## 6. Consultas SQL en DBeaver
 
@@ -205,6 +219,30 @@ Preguntas implementadas:
 - P1–P5
 - W1 y W3 en PostgreSQL
 - W2 en Silver/Athena
+
+<p><strong>Evidencia consultas SQL en DBeaver</strong></p>
+
+<p>En DBeaver se resolvieron las consultas <code>P1–P5</code> y las window functions <code>W1</code> y <code>W3</code> sobre la base PostgreSQL. A continuación se muestran algunas evidencias representativas.</p>
+
+<br>
+<p><strong>P1.</strong> Top 10 rutas con mayor número de vuelos.</p>
+<img src="docs/Screenshots/Pregunta%20P1.png" width="900">
+
+<br><br>
+<p><strong>P3.</strong> Vuelos cancelados por causa.</p>
+<img src="docs/Screenshots/Pregunta%20P3.png" width="900">
+
+<br><br>
+<p><strong>P5.</strong> Top 10 aeropuertos de origen con más minutos de retraso por clima.</p>
+<img src="docs/Screenshots/Pregunta%20P5.png" width="900">
+
+<br><br>
+<p><strong>W1.</strong> Para cada aerolínea, vuelo con mayor retraso de llegada.</p>
+<img src="docs/Screenshots/Pregunta%20W1.png" width="900">
+
+<br><br>
+<p><strong>W3.</strong> Primeros 5 vuelos desde LAX el 2015-01-01 según horario programado.</p>
+<img src="docs/Screenshots/Pregunta%20W3.png" width="900">
 
 ## 7. Notebook analítico
 
