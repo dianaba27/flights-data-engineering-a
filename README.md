@@ -130,9 +130,16 @@ Responsabilidades:
 
 Ejecución:
 
-python etl/gold.py --bucket itam-analytics-diana
+- python etl/gold.py --bucket itam-analytics-diana
 
-Evidencia Gold
+<p><strong>Evidencia Gold</strong></p>
+
+<p>Base <code>flights_gold</code> y tabla <code>vuelos_analitica</code> registradas correctamente en Glue Data Catalog.</p>
+<img src="docs/Screenshots/AWS%20Glue%20Gold.png" width="900">
+
+<br><br>
+<p>Validación en Athena de la tabla <code>flights_gold.vuelos_analitica</code> mediante un <code>SELECT ... LIMIT 5</code>.</p>
+<img src="docs/Screenshots/Athena%20Gold.png" width="900">
 
 ## 3. Infraestructura en PostgreSQL
 
