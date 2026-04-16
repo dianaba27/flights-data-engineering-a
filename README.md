@@ -94,20 +94,25 @@ Ejecución:
 - python etl/silver.py --bucket itam-analytics-diana
 
 <p><strong>Evidencia Silver</strong></p>
-<img src="docs/Screenshots/AWS%Glue%flights_silver.png" width="900">
+
+<p>Base <code>flights_silver</code> creada en Glue con las tres tablas agregadas.</p>
+<img src="docs/Screenshots/AWS%20Glue%20flights_silver.png" width="900">
 
 <br><br>
-<img src="docs/Screenshots/AWS%Glue%flights_by_airport.png" width="900">
+<p>Tabla <code>flights_by_airport</code> registrada correctamente en Glue.</p>
+<img src="docs/Screenshots/AWS%20Glue%20flights_by_airport.png" width="900">
 
 <br><br>
-<img src="docs/Screenshots/AWS%Glue%flights_daily.png" width="900">
+<p>Tabla <code>flights_daily</code> registrada correctamente en Glue.</p>
+<img src="docs/Screenshots/AWS%20Glue%20flights_daily.png" width="900">
 
 <br><br>
-<img src="docs/Screenshots/AWS%Glue%flights_monthly.png" width="900">
-
+<p>Tabla <code>flights_monthly</code> registrada correctamente en Glue.</p>
+<img src="docs/Screenshots/AWS%20Glue%20flights_monthly.png" width="900">
 
 <br><br>
-<img src="docs/Screenshots/Partitions%flights_daily.png" width="900">
+<p>Particiones de <code>flights_daily</code> por <code>MONTH</code>.</p>
+<img src="docs/Screenshots/Partitions%20flights_daily.png" width="900">
 
 ## Gold
 
