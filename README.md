@@ -249,7 +249,7 @@ Preguntas implementadas:
 <p><strong>W3.</strong> Para LAX el 2015-01-01, primeros 5 vuelos según horario programado.</p>
 <img src="docs/Screenshots/Pregunta%20W3.png" width="900">
 
-**Nota.** La consulta **W2** se respondió en el notebook usando `flights_silver.flights_monthly` en Athena, tal como lo indicaba la tarea, ya que la base PostgreSQL contiene solo una muestra de 500,000 filas.
+**Nota.** La consulta **W2** se respondió en el notebook usando `flights_silver.flights_monthly` en Athena, ya que la base PostgreSQL contiene solo una muestra de 500,000 filas.
 
 ## 7. Notebook analítico
 
@@ -263,7 +263,6 @@ Incluye:
 - DataFrames de resultados
 - visualizaciones por pregunta
 
-Ejemplos de evidencia del notebook
 
 ## 8. Análisis estadístico
 
@@ -287,7 +286,7 @@ Resultados destacados:
 
 Esto ocurre porque varias variables explicativas son componentes directos del propio retraso de llegada, por lo que existe multicolinealidad severa.
 
-Evidencia OLS
+
 
 ## Pronóstico de series de tiempo
 
@@ -305,7 +304,7 @@ Resultado principal:
 - Mejor modelo: AutoARIMA
 - Mejor MAE: 9512.34
 
-Evidencia Forecasting
+Los resultados completos del notebook, incluyendo DataFrames, visualizaciones, modelo OLS y pronósticos de series de tiempo, se encuentran documentados en `flights_analytics.ipynb` con sus salidas visibles.
 
 ## Cómo reproducir el proyecto
 - Bronze
