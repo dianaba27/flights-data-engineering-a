@@ -222,18 +222,23 @@ Preguntas implementadas:
 
 <p><strong>Evidencia consultas SQL en DBeaver</strong></p>
 
-<p>En DBeaver se resolvieron las consultas <code>P1–P5</code> y las window functions <code>W1</code> y <code>W3</code> sobre la base PostgreSQL. A continuación se muestran algunas evidencias representativas.</p>
-
-<br>
 <p><strong>P1.</strong> Top 10 rutas con mayor número de vuelos.</p>
 <img src="docs/Screenshots/Pregunta%20P1.png" width="900">
+
+<br><br>
+<p><strong>P2.</strong> Top 5 aerolíneas con mayor porcentaje de vuelos cancelados.</p>
+<img src="docs/Screenshots/Pregunta%20P2.png" width="900">
 
 <br><br>
 <p><strong>P3.</strong> Vuelos cancelados por causa.</p>
 <img src="docs/Screenshots/Pregunta%20P3.png" width="900">
 
 <br><br>
-<p><strong>P5.</strong> Top 10 aeropuertos de origen con más minutos de retraso por clima.</p>
+<p><strong>P4.</strong> Retraso promedio de salida por mes, considerando solo vuelos efectivamente retrasados.</p>
+<img src="docs/Screenshots/Pregunta%20P4.png" width="900">
+
+<br><br>
+<p><strong>P5.</strong> Top 10 aeropuertos de origen con más minutos totales de retraso por clima.</p>
 <img src="docs/Screenshots/Pregunta%20P5.png" width="900">
 
 <br><br>
@@ -241,8 +246,10 @@ Preguntas implementadas:
 <img src="docs/Screenshots/Pregunta%20W1.png" width="900">
 
 <br><br>
-<p><strong>W3.</strong> Primeros 5 vuelos desde LAX el 2015-01-01 según horario programado.</p>
+<p><strong>W3.</strong> Para LAX el 2015-01-01, primeros 5 vuelos según horario programado.</p>
 <img src="docs/Screenshots/Pregunta%20W3.png" width="900">
+
+**Nota.** La consulta **W2** se respondió en el notebook usando `flights_silver.flights_monthly` en Athena, tal como lo indicaba la tarea, ya que la base PostgreSQL contiene solo una muestra de 500,000 filas.
 
 ## 7. Notebook analítico
 
