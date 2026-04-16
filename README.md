@@ -68,7 +68,7 @@ Ejecución:
 - python etl/bronze.py --bucket itam-analytics-diana --data-dir data/
 
 <p><strong>Evidencia Bronze</strong></p>
-<img src="docs/Screenshots/AWS%20Glue%20flights_bronze.png" width="750">
+<img src="docs/Screenshots/AWS%20Glue%20flights_bronze.png" width="900">
 
 <br><br>
 <img src="docs/Screenshots/AWS%20Glue%20airline%20table.png" width="900">
@@ -93,7 +93,21 @@ Ejecución:
 
 - python etl/silver.py --bucket itam-analytics-diana
 
-Evidencia Silver
+<p><strong>Evidencia Silver</strong></p>
+<img src="docs/Screenshots/AWS%Glue%flights_silver.png" width="900">
+
+<br><br>
+<img src="docs/Screenshots/AWS%Glue%flights_by_airport.png" width="900">
+
+<br><br>
+<img src="docs/Screenshots/AWS%Glue%flights_daily.png" width="900">
+
+<br><br>
+<img src="docs/Screenshots/AWS%Glue%flights_monthly.png" width="900">
+
+
+<br><br>
+<img src="docs/Screenshots/Partitions%flights_daily.png" width="900">
 
 ## Gold
 
