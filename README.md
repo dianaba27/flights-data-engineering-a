@@ -68,7 +68,7 @@ Ejecución:
 
 python etl/bronze.py --bucket itam-analytics-diana --data-dir data/
 
-Evidencia Bronze
+<img src="docs/Screenshots/AWS Glue flights_bronze.png" width="900">
 
 ## Silver
 
