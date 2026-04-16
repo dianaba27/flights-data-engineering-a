@@ -69,9 +69,15 @@ Ejecución:
 
 <p><strong>Evidencia Bronze</strong></p>
 <img src="docs/Screenshots/AWS%20Glue%20flights_bronze.png" width="750">
-<img src="docs/Screenshots/AWS%Glue%airline%table.png" width="900">
-<img src="docs/Screenshots/AWS%Glue%airports%table.png" width="900">
-<img src="docs/Screenshots/AWS%Glue%flights%table.png" width="900">
+
+<br><br>
+<img src="docs/Screenshots/AWS%20Glue%20airline%20table.png" width="900">
+
+<br><br>
+<img src="docs/Screenshots/AWS%20Glue%20airports%20table.png" width="900">
+
+<br><br>
+<img src="docs/Screenshots/AWS%20Glue%20flights%20table.png" width="900">
 
 ## Silver
 
