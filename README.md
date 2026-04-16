@@ -65,10 +65,13 @@ Responsabilidades:
 - mantener idempotencia
 
 Ejecución:
+- python etl/bronze.py --bucket itam-analytics-diana --data-dir data/
 
-python etl/bronze.py --bucket itam-analytics-diana --data-dir data/
-
+Evidencia:
 <img src="docs/Screenshots/AWS Glue flights_bronze.png" width="900">
+<img src="docs/Screenshots/AWS Glue airline table.png" width="900">
+<img src="docs/Screenshots/AWS Glue airports table.png" width="900">
+<img src="docs/Screenshots/AWS Glue flights table.png" width="900">
 
 ## Silver
 
@@ -82,7 +85,7 @@ Responsabilidades:
 
 Ejecución:
 
-python etl/silver.py --bucket itam-analytics-diana
+- python etl/silver.py --bucket itam-analytics-diana
 
 Evidencia Silver
 
