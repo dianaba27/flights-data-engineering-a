@@ -68,15 +68,20 @@ Ejecución:
 - python etl/bronze.py --bucket itam-analytics-diana --data-dir data/
 
 <p><strong>Evidencia Bronze</strong></p>
+
+<p>Base <code>flights_bronze</code> creada en Glue con las tres tablas crudas registradas.</p>
 <img src="docs/Screenshots/AWS%20Glue%20flights_bronze.png" width="900">
 
 <br><br>
+<p>Tabla <code>airlines</code> cargada correctamente en Bronze.</p>
 <img src="docs/Screenshots/AWS%20Glue%20airline%20table.png" width="900">
 
 <br><br>
+<p>Tabla <code>airports</code> cargada correctamente en Bronze.</p>
 <img src="docs/Screenshots/AWS%20Glue%20airports%20table.png" width="900">
 
 <br><br>
+<p>Tabla <code>flights</code> cargada correctamente en Bronze.</p>
 <img src="docs/Screenshots/AWS%20Glue%20flights%20table.png" width="900">
 
 ## Silver
